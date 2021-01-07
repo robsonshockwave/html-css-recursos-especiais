@@ -12,6 +12,7 @@
     <li>Compatibilidade HTML5 shiv
     <li>Novas tags input
     <li>Flex box
+    <li>Grid
 </ul>
 
 <h6>Feito com ♥ por Robson!</h6>
