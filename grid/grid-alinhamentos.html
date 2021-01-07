@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid (Grades) - Alinhamentos</title>
+    <link rel="stylesheet" href="../css/grid-alinhamentos.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div></div>
+        <div class="center"></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div class="center"></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+<!--
+    Grid: Alinamento
+    Existem 6 propriedades para alinhamento:
+    justify-content
+    align-content
+    justify-items
+    align-items
+    justify-self
+    align-self
+    ** Vamos separá-los em dois grupos:
+    1. justify e align
+    2. content, items e self
+
+    JUSTIFY E ALIGN
+    Sabendo que o grid é bidimensional, nós temos o eixo x e o y.
+    O eixo x é o posicionamento horizontal, da esquerda para a direita.
+    O eixo y é o posicionamento vertical, de cima para baixo.
+
+    CONTENT, ITEMS E SELF
+    Jutando o justify, ou align, com esses elementos: content, items e self; nós observamos nossas propriedades.
+    *** Content
+
+    #CONTENT
+    justify-content e align-content nos permite alinhar o próprio grid, relativo ao espaço fora do grid.
+    (O uso dessas propriedades são raras, pois só é aplicado caso o grid seja menor que a área definida. (Por exemplo, quando usamos em px o tamanho do grid, poderemos terminar com um grid pequeno, para o tamanho da área do grid.))
+    ** Podemos usar 7 valores **
+    1. start
+    2. end
+    3. center
+    4. strecth
+    5. space-between
+    6. space-around
+    7. space-evenly
+
+    #ITEMS
+    justify-items e align-items vai permitir alinhar os itens do nosso grid, em qualquer espaço disponível, na célula que ele habitar (div).
+    ** Podemos usar 4 valores **
+    1. start
+    2. end
+    3. center
+    4. strecth
+    
+    #SELF
+    justify-self e align-self vai nos permitir alinhar os itens em si.
+    Faz a mesma coisa que o justify-items e align-items, porém, aplicando diretamento no item de um grid.
+-->
+</body>
+</html>
