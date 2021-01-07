@@ -3,7 +3,7 @@
 <ul type="square">
     <li>Normalize CSS
     <li>Box sizing e cantos arredendados
-    <li>CDegradês e transparências
+    <li>Degradês e transparências
     <li>Sombras
     <li>Animações
     <li>Transições
